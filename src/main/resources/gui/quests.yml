@@ -1,8 +1,0 @@
-# Current GUI engine uses its built-in menu arrangement; these values document the default layout.
-size: 54
-title: '<dark_gray>QUEST JOURNAL'
-slots:
-  daily-tab: 10
-  weekly-tab: 13
-  event-tab: 16
-  close: 49

@@ -1,5 +1,0 @@
-prefix: '<dark_gray>[<light_purple>OctaPass</light_purple>]</dark_gray>'
-profile-loading: '<yellow>Your pass data is loading.</yellow>'
-profile-loaded: '<green>Your pass data has loaded.</green>'
-no-permission: '<red>You do not have permission.</red>'
-quest-complete: '<green>Objective complete!</green>'
