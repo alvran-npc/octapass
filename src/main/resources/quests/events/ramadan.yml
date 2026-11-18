@@ -1,0 +1,21 @@
+quests:
+  evening_harvest:
+    display-name: '<gradient:#f6d365:#fda085>Evening Harvest</gradient>'
+    description: 'Gather fresh crops for the community feast.'
+    icon: CARROT
+    type: harvest-crops
+    variable: WHEAT,CARROTS,POTATOES,BEETROOTS
+    amount: 256
+    xp: 600
+    start-date: '2027-02-01'
+    end-date: '2027-03-31'
+  lantern_maker:
+    display-name: '<gradient:#f9d976:#f39f86>Lantern Maker</gradient>'
+    description: 'Craft lanterns to decorate the town.'
+    icon: LANTERN
+    type: craft
+    variable: LANTERN
+    amount: 24
+    xp: 450
+    start-date: '2027-02-01'
+    end-date: '2027-03-31'

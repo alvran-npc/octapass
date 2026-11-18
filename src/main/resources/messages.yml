@@ -1,0 +1,3 @@
+# Starter message catalog. Current command feedback is mostly authored in English.
+active-language: id
+prefix: '<dark_gray>[<light_purple>OctaPass</light_purple>]</dark_gray>'

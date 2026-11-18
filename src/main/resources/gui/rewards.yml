@@ -1,0 +1,8 @@
+# Current GUI engine uses its built-in menu arrangement; these values document the default layout.
+size: 54
+title: '<dark_gray>PASS TRACK'
+page-size: 28
+slots:
+  previous: 45
+  claim-all: 49
+  next: 53
