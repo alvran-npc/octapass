@@ -1,0 +1,47 @@
+# Only ordinary building, farming, food and cosmetic items are accepted by this starter build.
+levels:
+  '1':
+    rewards:
+      - type: item
+        material: BREAD
+        amount: 8
+        name: '<gradient:#f7d794:#fff1bc>Trail Rations</gradient>'
+        lore:
+          - '<gray>A small supply for the journey.</gray>'
+      - type: message
+        text: '<green>Free Track Level 1 unlocked. Welcome to the season!</green>'
+  '2':
+    rewards:
+      - type: item
+        material: OAK_SAPLING
+        amount: 12
+        name: '<gradient:#7ed957:#c8ffad>Young Grove Bundle</gradient>'
+  '3':
+    rewards:
+      - type: money
+        amount: 2500
+  '5':
+    rewards:
+      - type: item
+        material: AMETHYST_SHARD
+        amount: 16
+        name: '<gradient:#a78bfa:#e9d5ff>Pass Crystal</gradient>'
+      - type: xp-boost
+        multiplier: 1.25
+        duration-seconds: 1800
+  '10':
+    rewards:
+      - type: random-choice
+        choices:
+          - weight: 3
+            reward:
+              type: item
+              material: GLOW_BERRIES
+              amount: 24
+              name: '<green>Glimmering Berries</green>'
+          - weight: 1
+            reward:
+              type: item
+              material: GLOW_INK_SAC
+              amount: 6
+              name: '<aqua>Glimmer Ink</aqua>'

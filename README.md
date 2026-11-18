@@ -32,6 +32,8 @@ Persyaratan lokal:
 mvn clean test package
 ```
 
+GitHub Actions tersedia di `.github/workflows/build.yml`. Workflow berjalan pada push, pull request ke `main`/`master`, tag `v*`, atau saat dijalankan manual dari tab **Actions**. Workflow memakai JDK 21, menjalankan `mvn clean verify`, lalu mengunggah JAR sebagai artifact bernama `AdvancedOctaPass-<commit>`.
+
 JAR final (sudah termasuk runtime dependency yang di-shade) akan dihasilkan di:
 
 ```text

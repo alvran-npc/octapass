@@ -1,0 +1,6 @@
+# Indonesian translation starter. Some GUI and command messages still use their English fallback.
+prefix: '<dark_gray>[<light_purple>OctaPass</light_purple>]</dark_gray>'
+profile-loading: '<yellow>Data pass sedang dimuat.</yellow>'
+profile-loaded: '<green>Data pass berhasil dimuat.</green>'
+no-permission: '<red>Kamu tidak memiliki izin.</red>'
+quest-complete: '<green>Misi selesai!</green>'

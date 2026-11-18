@@ -1,0 +1,59 @@
+name: AdvancedOctaPass
+version: '${project.version}'
+main: net.octa.octapass.AdvancedOctaPass
+api-version: '1.20'
+author: Octa Contributors
+description: An extensible seasonal progression pass for Paper servers.
+softdepend:
+  - Vault
+  - PlaceholderAPI
+  - ExcellentEconomy
+  - MMOItems
+  - AdvancedEnchantments
+  - OctaMMO
+  - OctaGens
+  - floodgate
+commands:
+  octapass:
+    description: Open and manage the Advanced OctaPass progression pass.
+    usage: /octapass help
+    aliases: [bp, battlepass]
+    permission: octapass.use
+permissions:
+  octapass.use:
+    description: Allows a player to use the pass menus and quests.
+    default: true
+  octapass.premium:
+    description: Grants Premium Pass claim access.
+    default: false
+  octapass.admin:
+    description: Grants all Advanced OctaPass admin commands.
+    default: op
+    children:
+      octapass.admin.reload: true
+      octapass.admin.give: true
+      octapass.admin.set: true
+      octapass.admin.reset: true
+      octapass.admin.premium: true
+      octapass.admin.season: true
+      octapass.admin.event: true
+      octapass.admin.booster: true
+      octapass.admin.debug: true
+  octapass.admin.reload:
+    default: op
+  octapass.admin.give:
+    default: op
+  octapass.admin.set:
+    default: op
+  octapass.admin.reset:
+    default: op
+  octapass.admin.premium:
+    default: op
+  octapass.admin.season:
+    default: op
+  octapass.admin.event:
+    default: op
+  octapass.admin.booster:
+    default: op
+  octapass.admin.debug:
+    default: op

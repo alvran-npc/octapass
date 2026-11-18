@@ -1,0 +1,21 @@
+quests:
+  winter_gathering:
+    display-name: '<gradient:#8ec5fc:#e0c3fc>Winter Gathering</gradient>'
+    description: 'Gather snow and festive building materials during the winter event.'
+    icon: SNOW_BLOCK
+    type: block-break
+    variable: SNOW_BLOCK,SNOW
+    amount: 128
+    xp: 500
+    start-date: '2026-12-01'
+    end-date: '2027-01-07'
+  warm_welcome:
+    display-name: '<gradient:#f6d365:#fda085>Warm Welcome</gradient>'
+    description: 'Prepare bread for visitors and friends.'
+    icon: BREAD
+    type: craft
+    variable: BREAD
+    amount: 32
+    xp: 350
+    start-date: '2026-12-01'
+    end-date: '2027-01-07'

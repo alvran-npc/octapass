@@ -1,0 +1,55 @@
+quests:
+  harvest_wheat:
+    display-name: '<gradient:#d4fc79:#96e6a1>Golden Harvest</gradient>'
+    description: 'Harvest mature wheat from the fields.'
+    icon: WHEAT
+    type: harvest-crops
+    variable: WHEAT
+    amount: 48
+    xp: 120
+    weight: 3.0
+  gather_oak:
+    display-name: '<gradient:#7ed957:#c8ffad>Forest Gatherer</gradient>'
+    description: 'Collect oak logs from the world.'
+    icon: OAK_LOG
+    type: block-break
+    variable: OAK_LOG
+    amount: 32
+    xp: 100
+    weight: 2.5
+  cast_a_line:
+    display-name: '<aqua>Quiet Waters</aqua>'
+    description: 'Catch fish during your travels.'
+    icon: FISHING_ROD
+    type: fish
+    variable: COD,SALMON,TROPICAL_FISH,PUFFERFISH
+    amount: 8
+    xp: 110
+    weight: 1.5
+  visit_the_world:
+    display-name: '<gradient:#89f7fe:#66a6ff>Open Horizons</gradient>'
+    description: 'Travel through the world.'
+    icon: MAP
+    type: move
+    variable: BLOCK
+    amount: 180
+    xp: 100
+    weight: 2.0
+  bake_bread:
+    display-name: '<gold>Fresh from the Oven</gold>'
+    description: 'Craft bread for the road.'
+    icon: BREAD
+    type: craft
+    variable: BREAD
+    amount: 16
+    xp: 100
+    weight: 1.5
+  stay_a_while:
+    display-name: '<light_purple>Time Well Spent</light_purple>'
+    description: 'Spend time exploring the server.'
+    icon: CLOCK
+    type: playtime
+    variable: MINUTE
+    amount: 30
+    xp: 150
+    weight: 1.0

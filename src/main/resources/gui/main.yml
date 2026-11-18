@@ -1,0 +1,9 @@
+# Current GUI engine uses its built-in menu arrangement; these values document the default layout.
+size: 27
+title: '<dark_gray>✦ <light_purple>ADVANCED OCTAPASS</light_purple> ✦'
+slots:
+  rewards: 10
+  quests: 12
+  leaderboard: 14
+  settings: 16
+  premium: 22

@@ -1,0 +1,18 @@
+season:
+  id: season-1
+  name: The First Dawn
+  start: '2026-11-01T00:00:00Z'
+  end: '2027-02-01T00:00:00Z'
+
+max-level: 50
+xp-curve:
+  mode: linear # linear | exponential | custom
+  base: 100
+  step: 25
+  factor: 1.22
+  custom:
+    '1': 100
+    '2': 125
+    '3': 150
+    '4': 175
+    '5': 200
